@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Catamaran);
+
+body {
+	background:rgb(104,187,285);
+	font-family: 'Open Sans';
+
+
+}
+
+h1, h2 {
+	font-family: 'Catamaran';
+	text-align:center;
+	text-transform: uppercase;
+
+}
+
+a {
+	text-decoration:none;
+	color: #000000;
+}
+
+/* Header*/
+#header {
+
+}
+
+/* Contenu */
+#container {
+	margin: 20px;
+
+}
+
+/* Côté gauche */
+#left-box {
+	background: rgb(9,30,45);
+	color: #FFFFFF;
+	float:left;
+	padding: 5px;
+	font-size:14px;
+	text-align:center;
+	width: 25%;
+}
+
+.photo
+{
+	background-color: #FFFFFF;
+	width: 80px;
+	height: 90px;
+	margin: auto;
+}
+/* Côté droit */
+#right-box {
+	background:#FFFFFF;
+	float:right;
+	width: 70%;
+
+}
+
+/* Expérience */
+#experiences-box {
+	background: #FFFFFF;
+	
+}
+.experience {
+	padding:5px;
+
+}
+
+.experience .study h2 {
+	font-size:16px;
+	text-transform: uppercase;
+}
+
+.experience p {
+font-size:14px;
+text-align:center;
+}
+
+
+.study {
+	padding:5px;
+}
+.study h2 {
+	font-size:16px;
+	text-transform: uppercase;
+}
+
+.study p {
+	font-size:14px;
+text-align:center;
+}
+
+#footer {
+	clear:both;
+}
